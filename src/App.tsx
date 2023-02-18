@@ -11,32 +11,32 @@ function App() {
         <div className="music-player-header">
           <h2 className="profile-name">SEANSWH</h2>
           <p className="amount-songs-total-duration">12 songs, 59:56 minutes</p>
-          <p className="artape-link">ARTAPE -></p>
+          <p className="artape-link">ARTAPE</p>
         </div>
-        <div className="music-player-track">
+        <button className="music-player-track">
         <div className="artist-title-track">
             <h1>Foo Fighters - Best of You</h1>
           </div>
           <div className="duration-buy-mp3">
-            <p><span className="duration">4:14</span> - <span className="buy-mp3">BUY THIS MP3</span></p>
+            <p><span className="duration">4:14</span> - <span className="buy-mp3">PLAY THIS SONG</span></p>
           </div>
-        </div>
-        <div className="music-player-track">
+        </button>
+        <button className="music-player-track">
         <div className="artist-title-track">
             <h1>Foo Fighters - Best of You</h1>
           </div>
           <div className="duration-buy-mp3">
-            <p><span className="duration">4:14</span> - <span className="buy-mp3">BUY THIS MP3</span></p>
+            <p><span className="duration">4:14</span> - <span className="buy-mp3">PLAY THIS SONG</span></p>
           </div>
-        </div>
-        <div className="music-player-track">
+        </button>
+        <button className="music-player-track">
         <div className="artist-title-track">
             <h1>Foo Fighters - Best of You</h1>
           </div>
           <div className="duration-buy-mp3">
-            <p><span className="duration">4:14</span> - <span className="buy-mp3">BUY THIS MP3</span></p>
+            <p><span className="duration">4:14</span> - <span className="buy-mp3">PLAY THIS SONG</span></p>
           </div>
-        </div>
+        </button>
       </div>
     </div>
   )

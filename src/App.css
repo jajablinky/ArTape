@@ -2,4 +2,30 @@
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
+  --artape-white: rgba(255, 255, 255, 0.87);
+  --artape-lime-green: rgba(166, 255, 0, 0.87);
+  --artape-black: #242424;
+  --artape-black: #242424;
+}
+
+.profile-name {
+  margin-top: 0px;
+}
+.artape-link{
+  margin-bottom: 0px;
+}
+
+.music-player-container{
+  border: 1px solid var(--artape-white);
+}
+
+.music-player-header{
+  color: var(--artape-black)
+  border: 1px solid var(--artape-white);
+  background: var(--artape-lime-green)
+}
+.music-player-track{
+  border-bottom: 1px solid var(--artape-white);
+  text-align: left;
+  width: 100%;
 }
