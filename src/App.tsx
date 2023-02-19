@@ -7,8 +7,8 @@ function App() {
     <div className="App">
       <div className="music-player-container">
         <div className="music-player-header">
-          <h2 className="profile-name">SEANSWH</h2>
-          <p className="amount-songs-total-duration">12 songs, 59:56 minutes</p>
+          <h2 className="profile-name">SO LOKI</h2>
+          <p className="amount-songs-total-duration">3 songs, 59:56 minutes</p>
           <p className="artape-link">ARTAPE</p>
         </div>
         <AudioPlayer />

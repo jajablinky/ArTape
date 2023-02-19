@@ -30,7 +30,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [\
             ["@types/react", "npm:18.0.28"],\
             ["@types/react-dom", "npm:18.0.11"],\
-            ["@vitejs/plugin-react-swc", "virtual:acd4968c9629f4dcd4400a3dd731718265625f29a8aaf8a955f1dd2aa64bd055ea0865426efcd2f77ff12ae85ca418f34b1c84723f5095126fa403fd5cca8106#npm:3.1.0"],\
+            ["@vitejs/plugin-react-swc", "virtual:acd4968c9629f4dcd4400a3dd731718265625f29a8aaf8a955f1dd2aa64bd055ea0865426efcd2f77ff12ae85ca418f34b1c84723f5095126fa403fd5cca8106#npm:3.2.0"],\
             ["react", "npm:18.2.0"],\
             ["react-dom", "virtual:acd4968c9629f4dcd4400a3dd731718265625f29a8aaf8a955f1dd2aa64bd055ea0865426efcd2f77ff12ae85ca418f34b1c84723f5095126fa403fd5cca8106#npm:18.2.0"],\
             ["typescript", "patch:typescript@npm%3A4.9.5#~builtin<compat/typescript>::version=4.9.5&hash=23ec76"],\
@@ -1061,17 +1061,17 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["@vitejs/plugin-react-swc", [\
-        ["npm:3.1.0", {\
-          "packageLocation": "./.yarn/cache/@vitejs-plugin-react-swc-npm-3.1.0-39e6ea487c-903fef0b13.zip/node_modules/@vitejs/plugin-react-swc/",\
+        ["npm:3.2.0", {\
+          "packageLocation": "./.yarn/cache/@vitejs-plugin-react-swc-npm-3.2.0-2b39c64989-9df519fee5.zip/node_modules/@vitejs/plugin-react-swc/",\
           "packageDependencies": [\
-            ["@vitejs/plugin-react-swc", "npm:3.1.0"]\
+            ["@vitejs/plugin-react-swc", "npm:3.2.0"]\
           ],\
           "linkType": "SOFT"\
         }],\
-        ["virtual:acd4968c9629f4dcd4400a3dd731718265625f29a8aaf8a955f1dd2aa64bd055ea0865426efcd2f77ff12ae85ca418f34b1c84723f5095126fa403fd5cca8106#npm:3.1.0", {\
-          "packageLocation": "./.yarn/__virtual__/@vitejs-plugin-react-swc-virtual-6f7b61d54e/0/cache/@vitejs-plugin-react-swc-npm-3.1.0-39e6ea487c-903fef0b13.zip/node_modules/@vitejs/plugin-react-swc/",\
+        ["virtual:acd4968c9629f4dcd4400a3dd731718265625f29a8aaf8a955f1dd2aa64bd055ea0865426efcd2f77ff12ae85ca418f34b1c84723f5095126fa403fd5cca8106#npm:3.2.0", {\
+          "packageLocation": "./.yarn/__virtual__/@vitejs-plugin-react-swc-virtual-8584efb844/0/cache/@vitejs-plugin-react-swc-npm-3.2.0-2b39c64989-9df519fee5.zip/node_modules/@vitejs/plugin-react-swc/",\
           "packageDependencies": [\
-            ["@vitejs/plugin-react-swc", "virtual:acd4968c9629f4dcd4400a3dd731718265625f29a8aaf8a955f1dd2aa64bd055ea0865426efcd2f77ff12ae85ca418f34b1c84723f5095126fa403fd5cca8106#npm:3.1.0"],\
+            ["@vitejs/plugin-react-swc", "virtual:acd4968c9629f4dcd4400a3dd731718265625f29a8aaf8a955f1dd2aa64bd055ea0865426efcd2f77ff12ae85ca418f34b1c84723f5095126fa403fd5cca8106#npm:3.2.0"],\
             ["@swc/core", "npm:1.3.35"],\
             ["@types/vite", null],\
             ["vite", "virtual:acd4968c9629f4dcd4400a3dd731718265625f29a8aaf8a955f1dd2aa64bd055ea0865426efcd2f77ff12ae85ca418f34b1c84723f5095126fa403fd5cca8106#npm:4.1.2"]\
@@ -1171,7 +1171,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["artape", "workspace:."],\
             ["@types/react", "npm:18.0.28"],\
             ["@types/react-dom", "npm:18.0.11"],\
-            ["@vitejs/plugin-react-swc", "virtual:acd4968c9629f4dcd4400a3dd731718265625f29a8aaf8a955f1dd2aa64bd055ea0865426efcd2f77ff12ae85ca418f34b1c84723f5095126fa403fd5cca8106#npm:3.1.0"],\
+            ["@vitejs/plugin-react-swc", "virtual:acd4968c9629f4dcd4400a3dd731718265625f29a8aaf8a955f1dd2aa64bd055ea0865426efcd2f77ff12ae85ca418f34b1c84723f5095126fa403fd5cca8106#npm:3.2.0"],\
             ["react", "npm:18.2.0"],\
             ["react-dom", "virtual:acd4968c9629f4dcd4400a3dd731718265625f29a8aaf8a955f1dd2aa64bd055ea0865426efcd2f77ff12ae85ca418f34b1c84723f5095126fa403fd5cca8106#npm:18.2.0"],\
             ["typescript", "patch:typescript@npm%3A4.9.5#~builtin<compat/typescript>::version=4.9.5&hash=23ec76"],\
@@ -2368,10 +2368,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["rollup", [\
-        ["npm:3.16.0", {\
-          "packageLocation": "./.yarn/cache/rollup-npm-3.16.0-086437dd48-239178a833.zip/node_modules/rollup/",\
+        ["npm:3.17.1", {\
+          "packageLocation": "./.yarn/cache/rollup-npm-3.17.1-3231e1d0a6-3c6076eba2.zip/node_modules/rollup/",\
           "packageDependencies": [\
-            ["rollup", "npm:3.16.0"],\
+            ["rollup", "npm:3.17.1"],\
             ["fsevents", "patch:fsevents@npm%3A2.3.2#~builtin<compat/fsevents>::version=2.3.2&hash=df0bf1"]\
           ],\
           "linkType": "HARD"\
@@ -2660,7 +2660,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["less", null],\
             ["postcss", "npm:8.4.21"],\
             ["resolve", "patch:resolve@npm%3A1.22.1#~builtin<compat/resolve>::version=1.22.1&hash=c3c19d"],\
-            ["rollup", "npm:3.16.0"],\
+            ["rollup", "npm:3.17.1"],\
             ["sass", null],\
             ["stylus", null],\
             ["sugarss", null],\
