@@ -3,7 +3,7 @@
   margin: 0 auto;
   padding: 2rem;
   --artape-white: rgba(255, 255, 255, 0.87);
-  --artape-lime-green: rgba(166, 255, 0, 0.87);
+  --artape-lime-green: #3bff67;
   --artape-black: #242424;
   --artape-black: #242424;
 }
@@ -11,21 +11,31 @@
 .profile-name {
   margin-top: 0px;
 }
-.artape-link{
+.artape-link {
   margin-bottom: 0px;
 }
 
-.music-player-container{
+.music-player-container {
   border: 1px solid var(--artape-white);
+  border-radius: 8px;
 }
 
-.music-player-header{
-  color: var(--artape-black)
+.music-player-header {
+  color: var(--artape-black);
   border: 1px solid var(--artape-white);
-  background: var(--artape-lime-green)
+  border-radius: 8px;
+
+  background: var(--artape-lime-green);
+  padding: 0.6em 1.2em;
 }
-.music-player-track{
+
+.music-player-track {
+  display: flex;
+  flex-direction: row;
   border-bottom: 1px solid var(--artape-white);
-  text-align: left;
+  justify-content: space-between;
   width: 100%;
+}
+.music-player-left-side {
+  text-align: left;
 }
